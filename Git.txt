@@ -1,0 +1,16 @@
+git muestra todos los comandos :3
+man <comando> "Muestra todas las funcionalidades y flags del comando"
+git init "Inicializa la carpeta como un repositorio git"
+git clone <url> "Clona un repositorio en esa carpeta"
+git status "Muestra el estado de los archivos del repositorio local"
+git log "Veo historial de commits" --all --graph (Flags para ver graficos de branches)
+git add .(todo) <"nombreArchivo"> <"otroArchivo"> "Agrega al commit"
+git commit -m "Mensaje del commit"
+git pull 
+git push
+git branch <nombreDelBranch> "Crea rama de trabajo"
+git checkout <nombreDelBranch> "Cambia puntero Head al branch seleccionado" 
+git checkout -b <nombreDelBranch> "Crea rama de trabajo y te posiciona en ella"
+git merge <nombreDelBranch> "Fusiona Branch actual con la ingresada en parametro"
+git diff "Muestra los cambios en los archivos"
+git checkout --<nombreDelArchivo> "Descarta los cambios realizados a ese archivo"(usar con cautela)
